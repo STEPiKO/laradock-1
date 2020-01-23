@@ -2,6 +2,7 @@ docker-build:
 	docker-compose up --build -d nginx php-fpm mariadb phpmyadmin workspace
 
 
+
 docker-laravel-up:
 	docker-compose up -d nginx php-fpm mariadb phpmyadmin workspace
 
