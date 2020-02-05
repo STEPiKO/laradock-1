@@ -35,5 +35,5 @@ sdo_admin-assets-production:
 	docker-compose exec --user=laradock workspace bash -c 'yarn run production'
 
 sdo_admin-assets-watch:
-	docker-compose exec --user=laradock workspace bash -c 'yarn run watch'
+	docker-compose exec --user=laradock workspace bash -c 'npm run watch'
 
