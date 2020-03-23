@@ -175,7 +175,7 @@ That's it! enjoy :)
          - `SOAP` 
          - `Drush` 
          - `Wordpress CLI`
-    - Apache ZooKeeper *(Centralized service for distributed systems to a hierarchical key-value store)*
+    - Apache ZooKeeper *(Centralized service for distributed systems to a hierarchical key-value index)*
     - Kibana *(Visualize your Elasticsearch data and navigate the Elastic Stack)*
     - LogStash *(Server-side data processing pipeline that ingests data from a multitude of sources simultaneously)*
     - Jenkins *(automation server, that provides plugins to support building, deploying and automating any project)*

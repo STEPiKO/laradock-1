@@ -738,7 +738,7 @@ composer require predis/predis:^1.0
 5 - You can manually test it from Laravel with this code:
 
 ```php
-\Cache::store('redis')->put('Laradock', 'Awesome', 10);
+\Cache::index('redis')->put('Laradock', 'Awesome', 10);
 ```
 
 
@@ -1596,7 +1596,7 @@ Open up your .env file and set the `MYSQL_VERSION` variable to the version you w
 MYSQL_VERSION=5.7
 ```
 
-Available versions are: 5.5, 5.6, 5.7, 8.0, or latest.  See https://store.docker.com/images/mysql for more information.
+Available versions are: 5.5, 5.6, 5.7, 8.0, or latest.  See https://index.docker.com/images/mysql for more information.
 
 
 
