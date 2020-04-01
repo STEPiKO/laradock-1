@@ -29,11 +29,14 @@ sdo_admin-assets-rebuild:
 	docker-compose exec --user=laradock workspace bash -c 'npm rebuild node-sass --force'
 
 sdo_admin-assets-dev:
-	docker-compose exec --user=laradock workspace bash -c 'yarn run dev'
+	docker-compose exec --user=laradock workspace bash -c 'npm run dev'
 
 sdo_admin-assets-production:
-	docker-compose exec --user=laradock workspace bash -c 'yarn run production'
+	docker-compose exec --user=laradock workspace bash -c 'npm run production'
 
 sdo_admin-assets-watch:
 	docker-compose exec --user=laradock workspace bash -c 'npm run watch'
+
+sdo_admin-assets-watch-production:
+	docker-compose exec --user=laradock workspace bash -c 'npm run watch-prod'
 
